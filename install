@@ -40,4 +40,7 @@ xfconf-query -c xfce4-panel -p /panels/panel-1/background-style -t int -s 0 --cr
 xfconf-query -c xfce4-terminal -p /color-background -t "string" -s "#161616" --create
 xfconf-query -c xfce4-terminal -p /color-foreground -t "string" -s "#c7c7c7" --create
 
+xfconf-query -c xfce4-terminal -p /ShowMenubar -t "bool" -s "true" --create
+xfconf-query -c xfce4-terminal -p /ShellShowMenubar -t "bool" -s "true" --create
+
 printf "Finished installing Black-Attack theme.\n"
